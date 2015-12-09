@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{biblatex}
+\addbibresource{biblatex-examples.bib}
+\addbibresource{local1.bib}
+\addbibresource{~/.vim/bundle/vim-latex/test/completion/local2.bib}
+\begin{document}
+
+To test label completion you need to compile the document first!
+
+\begin{equation}
+  f(x) = 42
+  \label{eq:main-is-working}
+\end{equation}
+
+\include{sub1}
+
+\include{"sub2\space with\space spaces"}
+
+\input{"sub3\space with\space spaces"}
+
+\end{document}
