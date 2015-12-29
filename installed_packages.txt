@@ -1,0 +1,26 @@
+Packages I have installed in /InstalledPackages:
+
+autoconf
+automake
+libtool
+
+blitz v0.9
+blitz v0.10
+
+boost 1.58
+
+deal.ii
+p4est
+trilinos
+
+hdf5
+netcdf
+
+gnuplot
+
+openmpi:
+	- configured with ./configure FC=gfortran
+
+##------------------------##
+
+I have also installed binaries of gfortan.
